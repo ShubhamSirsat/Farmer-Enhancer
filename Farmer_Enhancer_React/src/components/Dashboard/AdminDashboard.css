@@ -1,0 +1,497 @@
+@keyframes Blinking {
+  0% {
+    opacity: 0;
+    box-shadow: 0 0 0 0 blue;
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 1;
+    box-shadow: 0 0 0 40px rgba(0, 0, 0, 0.25);
+  }
+}
+
+.AdminDashboard-Container {
+  height: 100%;
+  width: 100%;
+}
+
+.AdminDashboard-Container .Sub-Container {
+  height: 100%;
+  min-width: 1517.5px;
+}
+
+.AdminDashboard-Container .Sub-Container .Body {
+  height: 90.5%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.AdminDashboard-Container .Sub-Container .Body .Sub-Body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.AdminDashboard-Container .Sub-Container .Body .Sub-Body .SubBody11 {
+  width: 15%;
+  min-height: 800px;
+  padding: 5px 0 0 0;
+  box-sizing: border-box;
+  transition: width 0.3s;
+  z-index: 1;
+  background-color: #0b230b;
+}
+
+.AdminDashboard-Container .Sub-Container .Body .Sub-Body .SubBody12 {
+  width: 5%;
+  height: 100%;
+  padding: 5px 0 0 0;
+  box-sizing: border-box;
+  transition: width 0.3s;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #202020;
+}
+
+.AdminDashboard-Container .Sub-Container .Body .Sub-Body .SubBody21 {
+  width: 85%;
+  height: 800px;
+  z-index: 1;
+  transition: width 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 96%;
+}
+
+.AdminDashboard-Container .Sub-Container .Body .Sub-Body .FeedBack-Container {
+  height: inherit;
+  width: inherit;
+  background-color: #202020af;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.AdminDashboard-Container .Sub-Container .Body .Sub-Body .FeedBack-Container .FeedBack-SubContainer {
+  height: 90%;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.FooterDiv {
+  background-color: #355d35;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  /* position:sticky; */
+  height: 50px;
+}
+
+.AdminDashboard-Container .Sub-Container .Body .Sub-Body .SubBody22 {
+  width: 85%;
+  max-height: 800px;
+  z-index: 1;
+  transition: width 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.AdminDashboard-Container .Sub-Container .Body .Sub-Body .NavButton1 {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+  padding-left: 10px;
+  background-color: rgba(112, 111, 110, 0.253);
+}
+
+.AdminDashboard-Container .Sub-Container .Body .Sub-Body .NavButton1 .NavButtonText {
+  color: yellow;
+  width: 80%;
+  font-family: "Roboto";
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AdminDashboard-Container .Sub-Container .Body .Sub-Body .NavButton1:hover {
+  background-color: rgba(112, 111, 110, 0.253);
+}
+
+.AdminDashboard-Container .Sub-Container .Body .Sub-Body .NavButton2 {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.AdminDashboard-Container .Sub-Container .Body .Sub-Body .NavButton2 .NavButtonText {
+  width: 80%;
+  font-family: "Roboto";
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.AdminDashboard-Container .Sub-Container .Body .Sub-Body .NavButton2:hover {
+  background-color: rgba(112, 111, 110, 0.253);
+}
+
+.AdminDashboard-Container .Sub-Container .Body .Sub-Body .DashBoard {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+.Note {
+  height: 15%;
+  width: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto";
+  color: red;
+}
+
+.Setting {
+  width: inherit;
+  height: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.Setting .AcRoom-Setting {
+  height: 90%;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Setting .AcRoom-Setting .Title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 500;
+  margin: 0 0 20px 0;
+}
+
+.Setting .NonAcRoom-Setting {
+  height: 90%;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Setting .NonAcRoom-Setting .Title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-family: "Roboto";
+  font-weight: 500;
+  margin: 0 0 20px 0;
+}
+
+.Button {
+  height: 15%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.Input-Field {
+  display: flex;
+  width: 450px;
+  margin: 7px;
+}
+
+.Input-Field .Text {
+  width: 200px;
+  margin: 8px 10px 8px 0;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+.Input-Field .Text-Input {
+  width: 300px;
+}
+
+.Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-weight: 500;
+  background-color: black;
+  color: white;
+}
+
+.Row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-weight: 500;
+}
+
+.Row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 12px;
+  text-overflow: ellipsis;
+  margin: 0 5px;
+}
+
+.search {
+  position: relative;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.151);
+  margin: 0 30px 0 0;
+  width: 30%;
+  height: 42px;
+  display: flex;
+}
+
+.search .searchIcon {
+  padding: 0 10px;
+  width: 8%;
+  height: 100%;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search .inputRoot {
+  color: inherit;
+  width: 92%;
+}
+
+.search .inputInput {
+  padding: 10px 10px 10px 0;
+  width: 100%;
+}
+
+.search:is(:hover) {
+  background-color: rgba(255, 255, 255, 0.212);
+}
+
+.textFieldDate {
+  border: 1px solid grey !important;
+  border-bottom: none;
+  border-radius: 5px !important;
+  margin: 15px !important;
+  width: 50%;
+  background-color: #ffffff;
+}
+
+.GetUserMenus-SubContainerAdmin {
+  display: flex;
+  justify-content: center !important;
+  flex-direction: column;
+  width: 96% !important;
+  margin: 30px !important;
+  margin-right: none !important;
+
+}
+
+.deliveryboybtn {
+  margin: 10px 10px 10px 31px;
+  display: flex;
+  width: 212px;
+  justify-content: space-between;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.showDetialsbtn {
+  width: 161px !important;
+  height: 45px;
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  font-size: 18px;
+  border-radius: 13px;
+}
+
+/* .GetUserMenus-ContainerAdmin .GetUserMenus-SubContainerAdmin {
+    height: 98%;
+    width: 98% !important;
+    display: flex;
+    flex-direction: column;
+    
+  
+  } */
+.tableDeliveryboy {
+  width: 98%;
+}
+
+.SubBody31 {
+
+  height: 100%;
+  z-index: 1;
+  transition: width 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 100%;
+
+}
+
+
+.bodyContent {
+  background-color: #cbffcbaf;
+  min-height: 800px;
+  width: 100%;
+}
+
+.Deliveredbtn {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #e4e4e4;
+  color: black;
+  font-weight: 900;
+  cursor: pointer;
+
+}
+
+.DoneBtn {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: green;
+  color: #ffffff;
+  font-weight: 900;
+  padding: 5px;
+
+}
+
+.bannerurl {
+  width: 53px;
+  height: 60px;
+}
+
+.icons {
+  width: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+label {
+  color: #000000;
+  font-weight: bold;
+}
+
+.fileImage {
+  display: flex;
+  padding: 5px;
+  /* justify-content: space-around; */
+}
+
+.inputFile {
+  width: 149px;
+}
+
+.text-div {
+  display: flex;
+  margin-left: 20px;
+  font-size: 12px;
+  color: red
+}
+
+.MuiTableCell-root {
+  padding: 5px !important;
+}
+
+.modeldiv {
+  background-color: #000000;
+  color: white;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  z-index: 1;
+}
+
+.TextFieldmodel {
+  width: 358px !important;
+  height: 55px !important;
+}
+
+.MuiBox-root-2 {
+  background-color: black !important;
+  color: #ffffff !important;
+  font-size: 15px !important;
+
+  width: 253px !important;
+  height: 207px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  margin-left: 692px !important;
+  margin-top: 246px !important;
+  justify-content: center !important;
+  border: 1px solid #000000 !important;
+  border-radius: 10px !important;
+  /* box-shadow: 0 0 0 40px rgba(0, 0, 0, 0.25); */
+}
+
+.Submitmodel {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+  border-radius: 2px !important;
+  width: 50px !important;
+}
+
+.btndivmodel {
+  display: flex !important;
+  width: 100% !important;
+  justify-content: space-around !important;
+}

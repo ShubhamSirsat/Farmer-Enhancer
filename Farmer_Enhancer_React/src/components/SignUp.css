@@ -1,0 +1,74 @@
+.SignUp-Container {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #355d35;
+}
+.SignUp-Container .SignUp-SubContainer {
+	height: 720px;
+	width: 500px;
+	border: 0.5px solid lightgray;
+	background-color: white;
+}
+.SignUp-Container .SignUp-SubContainer .Title {
+	font-family: "Roboto";
+	font-size: 25px;
+	font-weight: 500;
+	color: #202020;
+	margin: 20px 0 10px 0;
+}
+.SignUp-Container .SignUp-SubContainer .Header_Container {
+	height: 8%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: "Roboto";
+	font-size: 25px;
+	font-weight: 500;
+	color: black;
+}
+.SignUp-Container .SignUp-SubContainer .Body {
+	height: 77%;
+	width: 100%;
+}
+.SignUp-Container .SignUp-SubContainer .Body .form {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.SignUp-Container .SignUp-SubContainer .Body .form .TextField {
+	width: 300px;
+}
+.SignUp-Container .SignUp-SubContainer .Body .form .Roles {
+	display: block;
+	width: 100%;
+}
+.SignUp-Container .SignUp-SubContainer .Body .form .Roles .RoleValue {
+	width: 100px;
+}
+.SignUp-Container .SignUp-SubContainer .Body .form .PassError {
+	width: 59%;
+	font-size: 13px;
+	font-weight: 500;
+	color: red;
+	text-align: left;
+}
+.SignUp-Container .SignUp-SubContainer .Buttons {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.SignUp-Container .SignUp-SubContainer .Buttons .Btn {
+	height: 35px;
+	text-transform: none;
+}
+.SignUp-Container .SignUp-SubContainer:hover {
+	box-shadow: 0 0 5px -2px white;
+}
